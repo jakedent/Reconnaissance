@@ -1,6 +1,4 @@
-# GhostRecon
-
-# A Kali Linux reconnaissance toolkit.
+# GhostRecon - A Kali Linux reconnaissance toolkit.
 
 Update Kali : sudo apt-get update && apt-get upgrade
 
