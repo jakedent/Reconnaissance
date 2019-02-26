@@ -1,11 +1,12 @@
 # GhostRecon
-Kali Linux reconnaissance toolkit.
 
-Update Kali: sudo apt-get update && apt-get upgrade
+# A Kali Linux reconnaissance toolkit.
 
-Python libraries: pip3 install whois
+Update Kali : sudo apt-get update && apt-get upgrade
 
-Download GhostRecon repo and open terminal. 
+Python libraries : pip3 install whois
+
+Download GhostRecon repo & open terminal. 
 
 Change to the GhostRecon directory and type : sudo python3 main.py
 
