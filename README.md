@@ -1,4 +1,14 @@
-# GhostRecon - A Kali Linux reconnaissance toolkit.
+# GhostRecon - a Kali Linux reconnaissance toolkit.
+
+GhostRecon provides information for each step of the recon phase: 
+
+              1. Gather initial information
+              2. Determine the network range
+              3. Identify active machines
+              4. Discover open ports and access points
+              5. Fingerprint the operating system
+              6. Uncover services on ports
+              7. Map the network
 
 Update Kali : sudo apt-get update && apt-get upgrade
 
