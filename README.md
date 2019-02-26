@@ -1,6 +1,6 @@
 # GhostRecon - a Kali Linux reconnaissance toolkit.
 
-GhostRecon provides information for each step of the recon phase: 
+GhostRecon provides a tool for each step of the recon phase: 
 
    1. Gather initial information
    2. Determine the network range
