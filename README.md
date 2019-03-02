@@ -1,4 +1,5 @@
-# GhostRecon - a Kali Linux reconnaissance toolkit.
+# GhostRecon - a Kali Linux toolkit.
+# Automated reconnaissance.
 
 GhostRecon provides a tool for each step of the recon phase: 
 
