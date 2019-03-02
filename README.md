@@ -13,7 +13,7 @@ GhostRecon provides a tool for each step of the recon phase:
 
 # Installation : 
 
-Update Kali : sudo apt-get update && apt-get upgrade
+Update Kali : sudo apt-get update && sudo apt-get upgrade
 
 Python libraries : pip3 install whois
 
