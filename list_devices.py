@@ -2,7 +2,10 @@ import subprocess
 
 
 def map_network():
-    subprocess.call(['arp-scan', '-l'])
+    try:
+        subprocess.call(['arp-scan', '-l'])
+    except Exception as e:
+        print("\nUnable to run arp-scan. {0}".format(e))
 
 
 if __name__ == '__main__':
