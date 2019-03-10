@@ -12,7 +12,7 @@ def promise_ap():
     try:
         subprocess.call(['airodump-ng', interface + 'mon'])
     except Exception as e:
-        print("\nUnable to start promiscuous mode on wlan0mon".format(e))
+        print("\nUnable to start promiscuous mode on ", interface, "{0}".format(e))
     return
 
 
