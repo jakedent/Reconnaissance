@@ -2,10 +2,17 @@ import subprocess
 
 
 def promise_ap():
-    subprocess.call(['airmon-ng', 'start', 'wlan0'])
-    subprocess.call(['airodump-ng', 'stop', 'wlan0'])
-    subprocess.call(['airmon-ng', 'check', 'kill'])
-    subprocess.call(['airodump-ng', 'wlan0mon'])
+    interface = input("\nInterface name (wlan0, etc) : ")
+    try:
+        subprocess.call(['airmon-ng', 'start', interface])
+        subprocess.call(['airodump-ng', 'stop', interface])
+        subprocess.call(['airmon-ng', 'check', 'kill'])
+    except Exception as e:
+        print("\nCould not initiate Airmon-ng. {0}".format(e))
+    try:
+        subprocess.call(['airodump-ng', interface + 'mon'])
+    except Exception as e:
+        print("\nUnable to start promiscuous mode on wlan0mon".format(e))
     return
 
 
