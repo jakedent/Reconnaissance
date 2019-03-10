@@ -1,11 +1,19 @@
 import subprocess
 
+
 def restart_services():
-    subprocess.call(['service', 'network-manager', 'restart'])
-    subprocess.call(['iwconfig'])
-    subprocess.call(['airmon-ng', 'start', 'wlan0', '7'])
-    subprocess.call(['airmon-ng', 'stop', 'wlan0mon'])
-    subprocess.call(['ifconfig', 'wlan0', 'up'])
+    interface = input("\nInsert interface (wlan0, etc) : ") 
+    try:
+        subprocess.call(['service', 'network-manager', 'restart'])
+        subprocess.call(['iwconfig'])
+    except Exception as e:
+        print("\nUnable to run commands... {0}".format(e))
+    try:
+        subprocess.call(['airmon-ng', 'start', interface, '7'])
+        subprocess.call(['airmon-ng', 'stop', interface + 'mon'])
+        subprocess.call(['ifconfig', interface, 'up'])
+    except Exception as e:
+        print("\nUnable to restart network services on ", interface, "{0}".format(e))
     return
 
 
