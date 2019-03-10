@@ -9,10 +9,12 @@ def enum_apps():
         print("Returning to menu...")
     elif usr_warning == "yes":
         target = input("Enter target URL : ")
-        subprocess.call(['nmap', '--script', 'http-enum', target])
+        try:
+            subprocess.call(['nmap', '--script', 'http-enum', target])
+        except Exception as e:
+            print("\nCould not brute force with nmap NSE... {0}".format(e))
     else:
         print("Sorry, please type yes or no.")
-
 
 
 if __name__ == '__main__':
