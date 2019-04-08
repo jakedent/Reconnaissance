@@ -27,4 +27,18 @@ Change to the GhostRecon directory and type : sudo python3 main.py
 
 ![gr](https://user-images.githubusercontent.com/10816773/53376627-e399f800-3956-11e9-8aa4-a3cb28d0ad82.png)
 
-Happy reconnaissance. 
+
+# Menu breakdown : 
+   1. Advanced WHOIS lookup - lists general WHOIS lookup information + sub domains. 
+   2. List network devices - list the devices connected to your network.
+   3. WHOAMI - hilarious take on WHOIS and lists your configurations and details.
+   4. URL / IP port scanner - enter a url or ip and scan for open ports.
+   5. Promiscuous AP scan - enter monitor mode and scan for access points.
+   6. Spoof / reset MAC address - generates and spoofs your mac address. 'Reset [port]' resets mac configurations. 
+   7. Scan host on remote IP - list the devices connected to  remote IP.
+   8. Scan IP for OS details - enumerate operating system details from IP.
+   9. URL / IP geo-locater - discover geographical location of an IP address.
+   10. Web server application scan - list services and apps running on a web server, very loud.
+   11. Reset network services - for use after promiscuous mode.
+
+Happy reconnaissance! 
