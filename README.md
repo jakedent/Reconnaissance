@@ -1,7 +1,7 @@
 # GhostRecon - a Kali Linux toolkit.
-# Automated reconnaissance.
+# Automated Reconnaissance.
 
-GhostRecon provides a tool for each step of the recon phase: 
+GhostRecon provides an automation tool for each step of the recon phase: 
 
    1. Gather initial information
    2. Determine the network range
@@ -20,6 +20,7 @@ Python libraries : pip3 install whois
 Download GhostRecon repo.
 
 # Usage : 
+Built for Kali Linux - utilises tools such as Arp-Scan, NMap and xprobe. 
 
 Open terminal. 
 
