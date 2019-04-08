@@ -25,9 +25,6 @@ Open terminal.
 
 Change to the GhostRecon directory and type : sudo python3 main.py
 
-![gr](https://user-images.githubusercontent.com/10816773/53376627-e399f800-3956-11e9-8aa4-a3cb28d0ad82.png)
-
-
 # Menu breakdown : 
    1. Advanced WHOIS lookup - lists general WHOIS lookup information + sub domains. 
    2. List network devices - list the devices connected to your network.
@@ -40,5 +37,7 @@ Change to the GhostRecon directory and type : sudo python3 main.py
    9. URL / IP geo-locater - discover geographical location of an IP address.
    10. Web server application scan - list services and apps running on a web server, very loud.
    11. Reset network services - for use after promiscuous mode.
+
+![gr](https://user-images.githubusercontent.com/10816773/53376627-e399f800-3956-11e9-8aa4-a3cb28d0ad82.png)
 
 Happy reconnaissance! 
