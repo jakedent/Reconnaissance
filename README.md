@@ -32,7 +32,7 @@ Change to the GhostRecon directory and type : sudo python3 main.py
    1. Advanced WHOIS lookup - lists general WHOIS lookup information + sub domains. 
    2. List network devices - list the devices connected to your network.
    3. WHOAMI - hilarious take on WHOIS and lists your configurations and details.
-   4. URL / IP port scanner - enter a url or ip and scan for open ports.
+   4. URL / IP port scanner - enter a URL or IP and scan for open ports.
    5. Promiscuous AP scan - enter monitor mode and scan for access points.
    6. Spoof / reset MAC address - generates and spoofs your mac address. 'Reset [port]' resets mac configurations. 
    7. Scan host on remote IP - list the devices connected to  remote IP.
